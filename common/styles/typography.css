@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Arimo";
+    src: url("../../assets/fonts/Arimo/Arimo-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gelasio";
+    src: url("../../assets/fonts/Gelasio/Gelasio-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+html {
+    font-family: "Arial", "Arimo", sans-serif;
+    font-size: 15px;
+    line-height: 160%;
+    color: var(--color-text-default);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Georgia", "Gelasio", sans-serif;
+    color: var(--color-text-heading);
+}
+
+h1,
+h3,
+h4,
+h5,
+{
+letter-spacing: 0.06em;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 110%;
+    color: var(--color-primary);
+}
+
+h2 {
+    font-size: 44px;
+    line-height: 130%;
+}
+
+h3 {
+    font-size: 35px;
+    line-height: 130%;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 115%;
+}
+
+h5 {
+    font-size: 15px;
+    line-height: 115%;
+}
