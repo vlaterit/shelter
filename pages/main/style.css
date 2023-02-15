@@ -24,7 +24,6 @@
     color: var(--color-heading-light);
     letter-spacing: 0.1em;
     line-height: 13px;
-    margin-left: 2px;
 }
 
 .navigation-list {
@@ -33,5 +32,23 @@
     width: 442.5px;
     justify-content: space-between;
     margin: 0;
-    padding: 0 0 2px;
+    padding: 0;
+}
+
+.big-puppy-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+}
+
+.big-puppy-article {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    margin-bottom: 80px;
+}
+
+.big-puppy-img {
+    width: 698px;
 }
