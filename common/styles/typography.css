@@ -14,26 +14,45 @@
 
 html {
     font-family: "Arial", "Arimo", sans-serif;
+    font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-    color: var(--color-text-default);
+    color: var(--color-text);
+}
+
+a {
+    color: var(--color-link);
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    color: var(--color-link-hover);
+}
+
+a:active,
+a.active {
+    color: var(--color-link-active);
+    border-bottom: 3px solid var(--color-primary);
 }
 
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
     font-family: "Georgia", "Gelasio", sans-serif;
-    color: var(--color-text-heading);
+    font-weight: 400;
+    color: var(--color-heading);
 }
 
 h1,
 h3,
 h4,
 h5,
-{
-letter-spacing: 0.06em;
+h6 {
+    letter-spacing: 0.06em;
 }
 
 h1 {

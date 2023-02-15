@@ -1,0 +1,17 @@
+:root {
+    --color-primary: #f1cdb3;
+
+    --color-text: #4c4c4c;
+    --color-text-light: #cdcdcd;
+
+    --color-link: #545454;
+    --color-link-active: var(--color-link);
+    --color-link-hover: #292929;
+
+    --color-link-light: var(--color-text-light);
+    --color-link-light-active: #fafafa;
+    --color-link-light-hover: var(--color-link-light-active);
+
+    --color-heading: #545454;
+    --color-heading-light: #ffffff;
+}

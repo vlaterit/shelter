@@ -1,0 +1,31 @@
+.bg-texture-wrapper {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background:
+        url("../../assets/images/bg-texture.png"),
+        radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%),
+        #211f20;
+    color: var(--color-text-light);
+}
+
+.bg-texture-wrapper a {
+    color: var(--color-link-light);
+}
+
+.bg-texture-wrapper a:hover {
+    color: var(--color-link-light-hover);
+}
+
+.bg-texture-wrapper a:active,
+.bg-texture-wrapper a.active {
+    color: var(--color-link-light-active);
+}
+
+.bg-texture-wrapper h2,
+.bg-texture-wrapper h3,
+.bg-texture-wrapper h4,
+.bg-texture-wrapper h5,
+.bg-texture-wrapper h6 {
+    color: var(--color-heading-light);
+}
