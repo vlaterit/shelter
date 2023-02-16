@@ -35,20 +35,38 @@
     padding: 0;
 }
 
-.big-puppy-section {
+.start-screen-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 42px;
 }
 
-.big-puppy-article {
+.start-screen-article {
     display: flex;
     flex-direction: column;
     gap: 42px;
     margin-bottom: 80px;
 }
 
-.big-puppy-img {
+.start-screen-img {
     width: 698px;
+}
+
+.about-pets-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    padding-inline: 215px;
+}
+
+.about-pets-img {
+    width: 300px;
+}
+
+.about-pets-article {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
