@@ -24,7 +24,7 @@ button:hover {
 .outline-button {
     --border-width: 2px;
     border: var(--border-width) solid var(--color-primary);
-    padding: calc(var(--padding-vertical)-var(--border-width)) calc(var(--padding-horizontal)-var(--border-width));
+    padding: calc(var(--padding-vertical) - var(--border-width)) calc(var(--padding-horizontal) - var(--border-width));
     background-color: transparent;
 }
 
