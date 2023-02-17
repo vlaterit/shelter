@@ -8,6 +8,7 @@
 
     --color-text: #4c4c4c;
     --color-text-light: #cdcdcd;
+    --color-text-muted: #b2b2b2;
 
     --color-link: #545454;
     --color-link-active: var(--color-link);

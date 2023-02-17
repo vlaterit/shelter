@@ -93,3 +93,10 @@ h5 {
 .text-center {
     text-align: center;
 }
+
+.muted-text {
+    color: var(--color-text-muted);
+    font-style: italic;
+    font-size: 12px;
+    line-height: 150%;
+}

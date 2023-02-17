@@ -109,3 +109,17 @@
     height: 60px;
     object-fit: contain;
 }
+
+.donation-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-inline: 183px;
+}
+
+.donation-article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

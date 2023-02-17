@@ -1,12 +1,18 @@
 button {
+    --padding-vertical: 15px;
+    --padding-horizontal: 45px;
+    width: fit-content;
+    padding: var(--padding-vertical) var(--padding-horizontal);
     background-color: var(--color-primary);
     border-radius: 100px;
-    padding: 15px 45px;
     line-height: 130%;
     color: var(--color-button-text);
-    width: fit-content;
     font-size: 17px;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 button:hover {
@@ -18,7 +24,7 @@ button:hover {
 .outline-button {
     --border-width: 2px;
     border: var(--border-width) solid var(--color-primary);
-    padding: calc(15px - var(--border-width)) calc(45px - var(--border-width));
+    padding: calc(var(--padding-vertical)-var(--border-width)) calc(var(--padding-horizontal)-var(--border-width));
     background-color: transparent;
 }
 
@@ -30,4 +36,9 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.rectangle-button {
+    border-radius: 9px;
+    padding: 10px 15px;
 }
