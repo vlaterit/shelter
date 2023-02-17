@@ -89,3 +89,7 @@ h5 {
     font-size: 15px;
     line-height: 115%;
 }
+
+.text-center {
+    text-align: center;
+}
