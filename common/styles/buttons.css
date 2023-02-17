@@ -9,12 +9,25 @@ button {
     border: none;
 }
 
+button:hover {
+    background-color: var(--color-primary-hover);
+    border-color: var(--color-primary-hover);
+    cursor: pointer;
+}
+
 .outline-button {
-    border: 2px solid var(--color-primary);
+    --border-width: 2px;
+    border: var(--border-width) solid var(--color-primary);
+    padding: calc(15px - var(--border-width)) calc(45px - var(--border-width));
     background-color: transparent;
 }
 
-button:hover {
-    background-color: var(--color-primary-hover);
-    cursor: pointer;
+.circle-button {
+    --diameter: 52px;
+    min-width: var(--diameter);
+    min-height: var(--diameter);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
