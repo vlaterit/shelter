@@ -1,0 +1,29 @@
+.footer {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.footer-img {
+    width: 300px;
+}
+
+.footer-contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 16px 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-contact-list-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-contact-list-link h4 {
+    color: var(--color-primary);
+}
