@@ -11,7 +11,7 @@
 
 <body>
     <header class="header container">
-        <a class="logo" href="./index.html">
+        <a class="logo" href="../main/index.html">
             <h1 class="logo-title">Cozy House</h1>
             <span class="logo-subtitle">Shelter for pets in Boston</span>
         </a>
@@ -112,15 +112,13 @@
             <ul class="footer-contact-list">
                 <h3>For questions<br>and suggestions</h3>
                 <li>
-                    <a class="footer-contact-list-link" href="mailto:email@shelter.com" target="_blank"
-                        rel="noopener noreferrer">
+                    <a class="footer-contact-list-link" href="mailto:email@shelter.com">
                         <img src="../../assets/icons/mail.svg" alt="Email">
                         <h4>email@shelter.com</h4>
                     </a>
                 </li>
                 <li>
-                    <a class="footer-contact-list-link" href="tel:+136745677554" target="_blank"
-                        rel="noopener noreferrer">
+                    <a class="footer-contact-list-link" href="tel:+136745677554">
                         <img src="../../assets/icons/phone.svg" alt="Phone">
                         <h4>+13 674 567 75 54</h4>
                     </a>
@@ -129,8 +127,13 @@
             <ul class="footer-contact-list">
                 <h3>We are waiting<br>for your visit</h3>
                 <li>
-                    <a class="footer-contact-list-link" href="https://goo.gl/maps/qV259TLQNzj9eXJg8" target="_blank"
-                        rel="noopener noreferrer">
+                    <a class="footer-contact-list-link" href="https://goo.gl/maps/qV259TLQNzj9eXJg8" onclick="
+                        window.open('https://goo.gl/maps/qV259TLQNzj9eXJg8', 
+                            'newwindow', 
+                            'width=800,height=600'
+                        );
+                        return false;
+                    ">
                         <img src="../../assets/icons/pin.svg" alt="Location">
                         <h4>
                             1 Central Street, Boston<br>
@@ -139,8 +142,13 @@
                     </a>
                 </li>
                 <li>
-                    <a class="footer-contact-list-link" href="https://goo.gl/maps/2PM6qGbX3RAfro127" target="_blank"
-                        rel="noopener noreferrer">
+                    <a class="footer-contact-list-link" href="https://goo.gl/maps/2PM6qGbX3RAfro127" onclick="
+                        window.open('https://goo.gl/maps/2PM6qGbX3RAfro127', 
+                            'newwindow', 
+                            'width=800,height=600'
+                        );
+                        return false;
+                    ">
                         <img src="../../assets/icons/pin.svg" alt="Location">
                         <h4>18 South Park, London</h4>
                     </a>
