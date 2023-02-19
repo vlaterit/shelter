@@ -2,20 +2,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--color-card-background);
+    background-color: var(--background-card);
     border-radius: 9px;
     width: 270px;
     min-height: 435px;
 }
 
 .card:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
     cursor: pointer;
 }
 
 .card:hover button {
-    background-color: var(--color-primary-hover);
-    border-color: var(--color-primary-hover);
+    background-color: var(--color-primary-light);
+    border-color: var(--color-primary-light);
 }
 
 .card-img {

@@ -1,5 +1,10 @@
 @import "../../common/styles/index.css";
 
+.header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .start-screen-section {
     display: flex;
     justify-content: space-between;
@@ -87,4 +92,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.donation-img {
+    width: 505px;
 }

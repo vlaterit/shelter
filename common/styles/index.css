@@ -1,8 +1,7 @@
 @import "normalize.css";
 
 @import "colors.css";
-@import "bg-texture-wrapper.css";
-@import "bg-dark-wrapper.css";
+@import "wrappers.css";
 @import "typography.css";
 @import "base-layout.css";
 @import "header.css";

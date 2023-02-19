@@ -6,33 +6,29 @@
     align-items: center;
 }
 
-.bg-texture-wrapper .header {
-    padding-top: 61px;
-    padding-bottom: 60px;
-}
-
 .logo {
     text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .logo-title {
-    margin: 0 0 10px;
+    color: var(--text-color-logo-title);
 }
 
 .logo-subtitle {
+    color: var(--text-color-logo-subtitle);
     font-size: 13px;
-    color: var(--color-heading);
+    line-height: 15px;
     letter-spacing: 0.1em;
-    line-height: 13px;
 }
 
 .navigation-list {
     list-style: none;
     display: flex;
-    width: 442.5px;
+    width: 442px;
     justify-content: space-between;
     margin: 0;
     padding: 0;

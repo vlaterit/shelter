@@ -1,0 +1,22 @@
+.start-screen-wrapper {
+    background: var(--gradient-start-screen);
+}
+
+.dark-section-wrapper {
+    background: var(--background-dark-section-wrapper);
+}
+
+.footer-wrapper {
+    background: var(--gradient-footer);
+}
+
+.start-screen-wrapper,
+.footer-wrapper {
+    --text-color-logo-title: var(--text-color-logo-title-light);
+    --text-color-logo-subtitle: var(--text-color-logo-subtitle-light);
+    --text-color-paragraph-l: var(--text-color-paragraph-l-light);
+    --text-color-link: var(--text-color-link-light);
+    --text-color-link-active: var(--text-color-link-active-light);
+    --text-color-link-hover: var(--text-color-link-hover-light);
+    --text-color-heading: var(--text-color-heading-light);
+}

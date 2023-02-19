@@ -1,15 +1,15 @@
-html {
-    scroll-behavior: smooth;
-}
-
 * {
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
-    margin-inline: auto;
     width: 100%;
     max-width: 1280px;
+    margin-inline: auto;
     padding-inline: 40px;
 }
 
@@ -18,7 +18,7 @@ html {
     padding-bottom: 100px;
 }
 
-.flex-column-section {
+.vertical-align-flex-section {
     display: flex;
     flex-direction: column;
     align-items: center;

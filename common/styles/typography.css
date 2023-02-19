@@ -18,26 +18,39 @@ html {
     font-style: normal;
     font-size: 15px;
     line-height: 160%;
+    color: var(--text-color-paragraph-l);
 }
 
-* {
-    color: var(--color-text);
+p,
+span {
+    color: var(--text-color-paragraph-l);
 }
 
 a {
-    color: var(--color-link);
+    color: var(--text-color-link);
     text-decoration: none;
     display: inline-block;
+    position: relative;
 }
 
 a:hover {
-    color: var(--color-link-hover);
+    color: var(--text-color-link-hover);
 }
 
-a:active,
 a.active {
-    color: var(--color-link-active);
-    border-bottom: 3px solid var(--color-primary);
+    color: var(--text-color-link-active);
+}
+
+a.active::after,
+a:active::after {
+    display: block;
+    content: '';
+    height: 3px;
+    background: var(--color-primary);
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
 }
 
 p {
@@ -54,7 +67,7 @@ button {
     font-family: "Georgia", "Gelasio", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--color-heading);
+    color: var(--text-color-heading);
     margin: 0;
 }
 
@@ -70,7 +83,6 @@ button {
 h1 {
     font-size: 32px;
     line-height: 110%;
-    color: var(--color-primary);
 }
 
 h2 {
@@ -90,7 +102,7 @@ h4 {
 
 h5 {
     font-size: 15px;
-    line-height: 115%;
+    line-height: 110%;
 }
 
 .text-center {
@@ -98,7 +110,7 @@ h5 {
 }
 
 .muted-text {
-    color: var(--color-text-muted);
+    color: var(--text-color-paragraph-s);
     font-style: italic;
     font-size: 12px;
     line-height: 150%;
